@@ -11,25 +11,73 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login with Google"
-        android:layout_marginBottom="45dp"
-        android:layout_above="@+id/Register"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
 
     <Button
         android:id="@+id/Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Register with Google"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Register with Google" />
+        android:layout_marginBottom="164dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Register"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="76dp"
         android:text="If you don't have a Google account, you have to first register and then come back to the Traffic Rush app and then login using your Google account details."
-        android:textAppearance="@style/TextAppearance.AppCompat" />
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_above="@+id/Register"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/ID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
