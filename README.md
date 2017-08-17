@@ -19,3 +19,6 @@ https://developers.google.com/maps/documentation/directions/start
 
 Then other details like traffic, presence of a police etc are known by connecting Traffic Rush to another app named waze using Waze Deep Links:
 https://developers.google.com/waze/api/
+
+Sample demo videos showing the working of Traffic Rush App
+https://drive.google.com/drive/folders/0ByTz45D8AFAua016N3FIU3FMYlE?usp=sharing
