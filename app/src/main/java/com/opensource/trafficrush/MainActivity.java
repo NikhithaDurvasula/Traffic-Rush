@@ -76,9 +76,7 @@ public class MainActivity extends Activity {
         {
             public void onClick(View v)
             {
-                //String geoUriString = "https://waze.com/ul?ll=45.6906304&-120.810983";
-
-                String geoUriString = "https://waze.com/ul?ll=" + finalAddressPos.latitude + "&-" + finalAddressPos.longitude;
+                String geoUriString = "https://waze.com/ul?q=Chicago";
 
                 Intent wazeMapCall = new Intent(Intent.ACTION_VIEW, Uri.parse(geoUriString));
                 startActivity(wazeMapCall);
@@ -89,6 +87,7 @@ public class MainActivity extends Activity {
         source = (TextView) findViewById(R.id.Source);
         destination = (AutoCompleteTextView) findViewById(R.id.finalAddressEditText);
 
+        //source.setAdapter(new PlacesAutoCompleteAdapter(this, android.R.layout.simple_spinner_dropdown_item));
         destination.setAdapter(new PlacesAutoCompleteAdapter(this, android.R.layout.simple_spinner_dropdown_item));
 
         // Initial Map
