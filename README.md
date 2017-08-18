@@ -60,7 +60,7 @@ compile sdk version 21
 4. https://developers.google.com/maps/documentation/android/start#getting_the_google_maps_android_api_v2
 5. Kinvey User guide : http://devcenter.kinvey.com/android/guides/users
 
-#Final Presentation and screenshots of the app can be found at https://github.com/lamhemanth/Traffic-Rush/tree/master/docs
+#Final Presentation and screenshots of the app can be found at https://github.com/NikhithaDurvasula/Traffic-Rush/blob/master/quick-talk.pdf
 
 #Demo video https://drive.google.com/drive/folders/0ByTz45D8AFAua016N3FIU3FMYlE?usp=sharing
 
