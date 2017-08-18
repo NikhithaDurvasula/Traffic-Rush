@@ -43,7 +43,7 @@ compile sdk version 21
 
 #SOURCE CODE: https://github.com/NikhithaDurvasula/Traffic-Rush
 
-#.apk File You can get the apk file from : 
+#.apk File You can get the apk file from : https://github.com/NikhithaDurvasula/Traffic-Rush/blob/master/app-debug.apk
 
 #Bug or Issue Tracker You can report the bugs in the following link: https://github.com/NikhithaDurvasula/Traffic-Rush/issues
 
