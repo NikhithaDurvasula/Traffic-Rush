@@ -4,7 +4,7 @@ Traffic Rush is an Android app for making traveling much easier by giving inform
 
 Copyright (c) 2017 Hemanth Lam, Nikhitha Durvasula
 
-This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms.
+This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms https://github.com/NikhithaDurvasula/Traffic-Rush/blob/master/LICENSE
 
 #PROJECT DESCRIPTION: An open source android application which helps people to know the traffic details from the current location to the desired destination address. This is all about knowing the occurrence of traffic incidents like accidents, traffic issues, cop traps, in your way to your destination.
 
@@ -44,8 +44,6 @@ compile sdk version 21
 #SOURCE CODE: https://github.com/NikhithaDurvasula/Traffic-Rush
 
 #.apk File You can get the apk file from : 
-
-#LICENSE Information This work is available under the "MIT License". Please see the file LICENSE in this distribution for license terms https://github.com/NikhithaDurvasula/Traffic-Rush/blob/master/LICENSE
 
 #Bug or Issue Tracker You can report the bugs in the following link: https://github.com/NikhithaDurvasula/Traffic-Rush/issues
 
