@@ -6,17 +6,17 @@ Copyright (c) 2017 Hemanth Lam, Nikhitha Durvasula
 
 This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms.
 
-#Project Description An open source android application which helps people to know the traffic details from the current location to the desired destination address. This is all about knowing the occurrence of traffic incidents like accidents, traffic issues, cop traps, in your way to your destination.
+#PROJECT DESCRIPTION: An open source android application which helps people to know the traffic details from the current location to the desired destination address. This is all about knowing the occurrence of traffic incidents like accidents, traffic issues, cop traps, in your way to your destination.
 
 This app allows users to register using email id and login. It provides users with mainly four options
-	1.	Login or Register
-	2.	Enter Destination Address
-	3.	Get Directions to the destination
-	4.	Get traffic information
+1. Login or Register
+2. Enter Destination Address
+3. Get Directions to the destination
+4. Get traffic information
 
 You can find the source code at https://github.com/NikhithaDurvasula/Traffic-Rush
 
-#Installation:
+#INSTALLATION:
 Firstly, clone the git repository.
 git clone https://github.com/NikhithaDurvasula/Traffic-Rush
 
@@ -35,32 +35,32 @@ The directions to the destination is given with the help of the Directions API: 
 
 Then other details like traffic, presence of a police etc are known by connecting Traffic Rush to another app named waze using Waze Deep Links: https://developers.google.com/waze/api/
 
-#Technical Details
+#TECHNICAL DETAILS:
 Android Studio 2.3.3
 JRE 1.8.0_112-release-b06 x86_64
 JVM: OpenJDK 64-Bt Server VM by JetBrains s.r.o
 compile sdk version 21
 
-#Source Code https://github.com/NikhithaDurvasula/Traffic-Rush
+#SOURCE CODE: https://github.com/NikhithaDurvasula/Traffic-Rush
 
 #.apk File You can get the apk file from : 
 
-#License Information This work is available under the "MIT License". Please see the file LICENSE in this distribution for license terms https://github.com/NikhithaDurvasula/Traffic-Rush/blob/master/LICENSE
+#LICENSE Information This work is available under the "MIT License". Please see the file LICENSE in this distribution for license terms https://github.com/NikhithaDurvasula/Traffic-Rush/blob/master/LICENSE
 
 #Bug or Issue Tracker You can report the bugs in the following link: https://github.com/NikhithaDurvasula/Traffic-Rush/issues
 
-#Future Enhancements
-	1.	Add maps functionality for taking source address from the user
-	2.	Adding backend to store registration data and user history
-	3.	To use Bing Maps Traffic Incidents API instead of wage API
-	4.	To integrate this app with there vehicle related apps like uber, left etc, or other vehicles for communication.
+#FUTURE ENHANCEMENTS:
+1. Add maps functionality for taking source address from the user
+2. Adding backend to store registration data and user history
+3. To use Bing Maps Traffic Incidents API instead of wage API
+4. To integrate this app with there vehicle related apps like uber, left etc, or other vehicles for communication.
 
-#References
-	1.	Android Studio - http://www.tutorialspoint.com/android/
-	2.	https://developer.android.com/training/index.html
-	3.	GoogleMaps: https://developers.google.com/maps/documentation/directions/intro ,
-	4.	https://developers.google.com/maps/documentation/android/start#getting_the_google_maps_android_api_v2
-	5.	Kinvey User guide : http://devcenter.kinvey.com/android/guides/users
+#REFERENCES:
+1. Android Studio - http://www.tutorialspoint.com/android/
+2. https://developer.android.com/training/index.html
+3. GoogleMaps: https://developers.google.com/maps/documentation/directions/intro ,
+4. https://developers.google.com/maps/documentation/android/start#getting_the_google_maps_android_api_v2
+5. Kinvey User guide : http://devcenter.kinvey.com/android/guides/users
 
 #Final Presentation and screenshots of the app can be found at https://github.com/lamhemanth/Traffic-Rush/tree/master/docs
 
